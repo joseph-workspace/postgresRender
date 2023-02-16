@@ -1,0 +1,15 @@
+{
+  "name": "pg-inclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {"node": "19.6.0"},
+  "scripts": {
+    "start": "cd backend && npm start",
+    "build": "cd backend && npm i && cd ../client && npm i && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
